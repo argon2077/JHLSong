@@ -1,0 +1,14 @@
+#!name=Kindle Fonts Customize
+#!desc=自定义Kindel字体
+
+[URL Rewrite]
+
+^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STSongSC.ttf.+ https://github.com/argon2077/JHLSong/JHLSong.ttf
+
+# ^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STKaitiSC.ttf.+
+# ^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STHeitiSC.ttf.+
+# ^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STYuanMedium-2018-02-16.ttf.+
+
+[MITM]
+
+hostname = %APPEND% s3.cn-north-1.amazonaws.com
