@@ -3,7 +3,7 @@
 
 [URL Rewrite]
 
-^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STSongSC.ttf.+ https://github.com/argon2077/JHLSong/JHLSong.ttf
+^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STSongSC.ttf.+ https://github.com/argon2077/JHLSong/blob/main/JHLSong.ttf
 
 # ^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STKaitiSC.ttf.+
 # ^https://s3.cn-north-1.amazonaws.com/maes-appexpan-protected-prod/STFontSC/STHeitiSC.ttf.+
